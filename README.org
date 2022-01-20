@@ -1,0 +1,18 @@
+#+TITLE: Quantile Technologies Public Guix Channel
+
+Packages developed at Quantile, but not fit for integration with other channels will be hosted here.
+
+* Channel Setup
+
+You can add the following to your channel.scm file - usually stored under =/etc/guix/channel.scm= or =~/.config/guix/channel.scm=
+
+#+BEGIN_SRC scheme
+(channel
+  (name 'guix-packages)
+  (url "ssh://git@github.com:quantiletechnologies/guix-quantile.git")
+  (introduction
+    (make-channel-introduction
+       "7e698df7200257be514089efdbe04d6af1d2535c"
+       (openpgp-fingerprint
+         "5882 6D44 7BDD 52B4 EA6B  1202 7967 2059 1212 FEC5"))))
+#+END_SRC
