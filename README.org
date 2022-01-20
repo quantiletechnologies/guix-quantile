@@ -4,12 +4,12 @@ Packages developed at Quantile, but not fit for integration with other channels 
 
 * Channel Setup
 
-You can add the following to your channel.scm file - usually stored under =/etc/guix/channel.scm= or =~/.config/guix/channel.scm=
+You can add the following to your channel.scm file - usually stored under =/etc/guix/channel.scm= or =~/.config/guix/channel.scm=.
 
 #+BEGIN_SRC scheme
 (channel
-  (name 'quantile-packages)
-  (url "ssh://git@github.com:quantiletechnologies/guix-quantile.git")
+  (name 'guix-quantile)
+  (url "https://github.com/quantiletechnologies/guix-quantile.git")
   (introduction
     (make-channel-introduction
        "7e698df7200257be514089efdbe04d6af1d2535c"
