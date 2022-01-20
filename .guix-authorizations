@@ -1,0 +1,13 @@
+;; GPG Fingerprint required to allow commits of packages that Guix will accept
+;; https://guix.gnu.org/manual/en/guix.html#Specifying-Channel-Authorizations
+;; gpg --edit-key first.surname@quantile.com
+;; Command> fpr
+
+(authorizations
+ (version 0) ;current file format version
+ (("5882 6D44 7BDD 52B4 EA6B  1202 7967 2059 1212 FEC5"
+   (name "phil.beadling"))
+  ("8922 461B 1B9A D7BA 5B87  0C11 4FFE 45F7 1F27 4386"
+   (name "cheeyong.teh"))
+  ("30C5 CF1A 2339 D0FD 5A72  8ADA 069E 5DE5 EBBF D3AB"
+   (name "george.vafeiadis"))))
