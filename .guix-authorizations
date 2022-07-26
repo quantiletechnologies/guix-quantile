@@ -9,5 +9,9 @@
    (name "phil.beadling"))
   ("8922 461B 1B9A D7BA 5B87  0C11 4FFE 45F7 1F27 4386"
    (name "cheeyong.teh"))
+  ("C280 EF63 5266 71E6 73ED  B32C 8B18 2F3C 0A6A 8D7F"
+   (name "luke.hopkins"))
   ("30C5 CF1A 2339 D0FD 5A72  8ADA 069E 5DE5 EBBF D3AB"
-   (name "george.vafeiadis"))))
+   (name "george.vafeiadis"))
+  ("0FCA 4E2B 4C56 52BB CA40  C60B E4EB E3E7 F542 2234"
+   (name "kushagra.singhal"))))
